@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de privacidad · Valian CRM backup</title>
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<main>
+  <p><a href="./">← Valian CRM backup</a></p>
+  <h1>Política de privacidad</h1>
+  <p>Esta política se aplica a la aplicación «Valian CRM backup». Es una herramienta interna de copias de seguridad, y su único usuario es su propietario.</p>
+
+  <h2>Datos de Google a los que accede</h2>
+  <ul>
+    <li>La aplicación pide un único permiso a Google, <code>https://www.googleapis.com/auth/drive.file</code>. Con él solo puede ver, crear, modificar y borrar los ficheros de Google Drive que ella misma ha creado.</li>
+    <li>No lee el resto de ficheros del Drive.</li>
+    <li>No pide ni el perfil, ni el correo, ni los contactos, ni ningún otro dato de la cuenta de Google.</li>
+  </ul>
+
+  <h2>Para qué los usa</h2>
+  <p>Para crear la carpeta «Valian CRM backups» y subir a ella copias de seguridad del CRM de Valian. Las copias se cifran en el servidor de origen antes de subirlas, y la aplicación nunca maneja su contenido sin cifrar.</p>
+
+  <h2>Con quién se comparten</h2>
+  <p>Con nadie. Ningún dato obtenido de Google se vende, se cede a terceros ni se usa con fines publicitarios. El uso de la información recibida de las API de Google cumple la <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de datos de usuario de los servicios de API de Google</a>, incluidos los requisitos de uso limitado.</p>
+
+  <h2>Dónde se guardan las credenciales</h2>
+  <p>El acceso de la aplicación a Google se guarda cifrado en la configuración de secretos de GitHub Actions del repositorio privado del propietario. No se guarda en ningún otro sitio.</p>
+
+  <h2>Cuánto tiempo se conservan</h2>
+  <p>Las copias se quedan en el Google Drive del propietario hasta que él las borra. La aplicación no conserva ninguna copia aparte.</p>
+
+  <h2>Cómo retirar el acceso</h2>
+  <p>El propietario puede retirar el acceso cuando quiera desde <a href="https://myaccount.google.com/permissions">la página de permisos de su cuenta de Google</a>. Desde ese momento, la aplicación deja de poder subir ni modificar nada.</p>
+
+  <h2>Contacto</h2>
+  <p>A través de la cuenta de GitHub <a href="https://github.com/manuucaam">manuucaam</a>.</p>
+</main>
+<footer>Última actualización: 18 de noviembre de 2026.</footer>
+</body>
+</html>
